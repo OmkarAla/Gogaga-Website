@@ -1,0 +1,243 @@
+.container {
+    margin: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.move{
+    background-color: #fff;
+    border-width: 0px;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-item {
+    color: #333;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.heads {
+    font-size: 28px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.holidays-packages {
+    margin-top: 40px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.trust{
+    font-size: 12px;
+}
+.text-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.package-container { 
+    display: flex;
+    overflow: auto;
+}
+.package-container::-webkit-scrollbar {  /* Targets Brave, Chrome, Safari, etc. */
+    width: 8px;
+  }
+  .package-container::-webkit-scrollbar-button {
+    display: none;
+  }  
+  .package-container::-webkit-scrollbar-thumb {
+    background-color: #b9ccdf;
+    border-radius: 12px;
+  }
+
+  .item {
+    max-height: 240px; /* Fixed height */
+    min-width: 140px; /* Fixed width */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    background-size: cover;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 12px;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.item-g {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWea7sSD-ms_fDJIvV29P71RjpTaMcfJ96cw&usqp=CAU");
+}
+
+.item-s {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6Q-NSQX4TjXrENnKTYEB9O0w6SUXTH_Lhw&usqp=CAU");
+}
+
+.item-a {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwzlSbtvikJuulYcLYvgQhzO0JJ67pZLLXQ&usqp=CAU");
+}
+
+.item-i {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzuLWdMN5fLsypn2JjgV7KklW-a9DNNjj7Q&usqp=CAU");
+}
+
+.item-h {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKC9URXikLZKqbhXV8CyMZUsDLK_-8r-V72w&usqp=CAU");
+}
+
+.item-d {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sPaG0V9u16PWVwGi4SL11XWo_k4i5gPzjQ&usqp=CAU");
+}
+
+.item-t {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuz8qkQ7b6N58k7WIx0fbz7pZZudwO6RZZZQ&usqp=CAU");
+}
+
+.card-span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.search-container {
+    width: 60%;
+    /* Adjust width as needed */
+    margin: 0 auto;
+    /* Center horizontally */
+    display: flex;
+    margin-top: 80px;
+    border-radius: 12px;
+    padding: 40px;
+    flex-direction: row;
+    background-image: url("https://akm-img-a-in.tosshub.com/businesstoday/images/story/202312/untitled_design_-_2023-12-02t140057-sixteen_nine.jpg?size=948:533");
+    /* Stack header, form, and collage vertically */
+    background-size: cover;
+}
+
+.search-header {
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 12px;
+}
+
+.decor {
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    width: 180px;
+    font-size: 20px;
+    height: 50px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow form items to wrap to multiple lines */
+    justify-content: space-between;
+    /* Distribute form items evenly */
+    padding: 20px;
+}
+
+.form-group {
+    width: 45%;
+    /* Adjust width for form elements */
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+label {
+    display: block;
+    /* Display labels on separate lines */
+    margin-bottom: 5px;
+}
+
+.search-form input,
+.search-form select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 40px;
+    /* Include padding in width calculation */
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow images to wrap to multiple lines */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgba(16, 184, 226, 0.719);
+    color: #fff;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 30px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 10px
+}
+
+.vacation-rentals {
+    width: 60%;
+    margin: 0 auto;
+    background-image: url("https://content.r9cdn.net/himg/90/9b/e5/leonardo-310353-163450459-879059.jpg");
+    background-size: cover;
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+  }  
+  .search-area button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }     
+  .vacations{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .vacations input,select{
+    border-radius: 12px;
+    border-width: 0px;
+    height: 30px;
+    min-width: 140px;
+  }
+.vacations label{
+    margin-left: 10px;
+    margin-right: 5px;
+    font-weight: normal;
+}
+.hotel-bookings{
+    margin-top: 40px;
+}
+.footer{
+    color: #615e5eda;
+    text-align: center;
+}
